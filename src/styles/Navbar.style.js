@@ -91,11 +91,14 @@ export const OpenLinksButton = styled.button`
   }
 `;
 export const NavbarExtendedContainer = styled.div`
-  margin-top: 5px;
+position: relative;
+height: 90vh;
+width: 100vw;
+ 
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fff;
+ 
 
   @media (min-width: 780px) {
     display: none;

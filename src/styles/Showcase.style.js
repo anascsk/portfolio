@@ -18,7 +18,7 @@ color:
 `
 export const H1 = styled.h1`
 font-size: 100px;
-position: absolute;
+/* position: absolute; */
 top: 30px;
 margin-left: 2%;
 color: #d8d8d8;
