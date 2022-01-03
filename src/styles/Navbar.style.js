@@ -16,9 +16,10 @@ export const Container = styled.div`
 export const LeftContainer = styled.div`
   flex: 30%;
   display: flex;
-  justify-content: flex-end;
-  padding-right: 50px;
-  flex: 70%;
+  justify-content: start;
+  margin-left: 55px;
+  margin-top: 5px;
+
 `;
 
 export const RightContainer = styled.div`

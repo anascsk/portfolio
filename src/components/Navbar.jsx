@@ -15,15 +15,15 @@ import {
 
 import { CgMenuMotion } from "react-icons/cg";
 import { CgMenuHotdog } from "react-icons/cg";
-import { Button } from "../styles/button.style.js";
 
+let anascoder = require("../images/anascoder.png");
 const Navbar = () => {
   const [extendedNavbar, setExtendedNavbar] = useState(false);
   return (
     <Container extendedNavbar={extendedNavbar}>
       <NavbarInnerContainer>
         <LeftContainer>
-          <Logo src={Logo.png}></Logo>
+          <Logo src={anascoder}></Logo>
         </LeftContainer>
         <RightContainer>
           <NavbarLinkContainer>

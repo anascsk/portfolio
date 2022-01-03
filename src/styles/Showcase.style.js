@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-width: 100vw;
-height: 90vh;
+width: 100%;
+height: 100vh;
 display: flex;
-
+margin-bottom: 50px;
 `
 export const Left = styled.div`
 flex: 40%;
@@ -15,10 +15,11 @@ padding-left: 50px;
 color: 
 #949294;
 
+
+
 `
 export const H1 = styled.h1`
-font-size: 100px;
-/* position: absolute; */
+font-size: 90px;
 top: 30px;
 margin-left: 2%;
 color: #d8d8d8;
@@ -48,5 +49,14 @@ margin: auto;
 overflow: hidden;
 font-size: 60px;
 color: #705edb;
+
+overflow: hidden;
+
+`
+export const SocialIcons = styled.div`
 cursor: pointer;
+&:hover {
+    color: 
+    #7288e7
+}
 `
