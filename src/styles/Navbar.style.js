@@ -19,6 +19,7 @@ export const LeftContainer = styled.div`
   justify-content: start;
   margin-left: 55px;
   margin-top: 5px;
+  color: black;
 
 `;
 

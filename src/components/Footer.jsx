@@ -2,6 +2,7 @@ import React from "react";
 import {
   BottomFooter,
   Copyright,
+  End,
   FollowMe,
   FooterContainer,
   FooterLine,
@@ -12,6 +13,8 @@ import {MdLinearScale} from 'react-icons/md'
 
 const Footer = () => {
   return (
+      <>
+      <End><MdLinearScale/></End>
     <FooterContainer>
       <BottomFooter>
         <Copyright>
@@ -26,6 +29,7 @@ const Footer = () => {
         </FollowMe>
       </BottomFooter>
     </FooterContainer>
+    </>
   );
 };
 

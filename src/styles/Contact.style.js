@@ -17,7 +17,7 @@ export const ContactBox = styled.div`
   padding: 15px;
   background-color: #fff;
   border-radius: 45px;
-  padding: 110px 0px;
+  padding: 60px 0px;
   display: flex;
   justify-content: center;
   
@@ -29,7 +29,7 @@ export const ContactBox = styled.div`
   display: inline-block;
   padding-bottom: 1rem;
   line-height: 1;
-  font-size: 2.8rem;
+
   margin-bottom: 0.6rem;
   }
   p {
@@ -43,17 +43,7 @@ export const ContactInfo = styled.div`
   margin-right: 40px;
   display: flex;
   flex-direction: column;
-  h3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    display: inline-block;
-    padding-bottom: 1rem;
-    line-height: 1;
-    font-size: 2.8rem;
-    margin-bottom: 0.6rem;
-  }
+  
   
 `;
 export const InfoWrap = styled.div`

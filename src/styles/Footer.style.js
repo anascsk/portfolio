@@ -1,5 +1,11 @@
 import styled from "styled-components";
 
+
+export const End = styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+`;
 export const FooterContainer = styled.div`
 background-color: #241d2b;
 border-radius: 40px 40px 0px 0px ;
@@ -51,4 +57,3 @@ cursor: pointer;
 }
 
 `;
-// export const FollowMe = styled.div``;

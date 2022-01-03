@@ -23,7 +23,8 @@ const Navbar = () => {
     <Container extendedNavbar={extendedNavbar}>
       <NavbarInnerContainer>
         <LeftContainer>
-          <Logo src={anascoder}></Logo>
+          {/* <Logo src={anascoder}></Logo> */}
+          <h1> &lt;anascoder /&gt;</h1>
         </LeftContainer>
         <RightContainer>
           <NavbarLinkContainer>

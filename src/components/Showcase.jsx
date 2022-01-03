@@ -9,9 +9,6 @@ import {
   Right,
   Center,
   Left,
-  H1,
-  H2,
-  P,
   SocialIcons,
 } from "../styles/Showcase.style";
 import { Button } from "../styles/button.style";
@@ -22,12 +19,13 @@ const Showcase = () => {
   return (
     <Container>
       <Left>
-        <H1>Hello World</H1>
-        <H2><span>It's</span>MOHAMMED ANAS</H2>
-        <P>Building resposive web apps with the help of React.js</P>
-        <P>
+        <h1>Hello World</h1>
+        <h2><span>It's</span>MOHAMMED ANAS</h2>
+        <h3>Frontend Developer</h3>
+        <p>Building Responsive and fgjh;siodjg;oifdejg</p>
+        <p>
           <Button>Download CV</Button>
-        </P>
+        </p>
       </Left>
       <Center>
         <img src={CodingLogo} alt="" />
