@@ -3,12 +3,14 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Showcase from "./components/Showcase";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Projects from "./components/Projects";
 
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
       <Showcase/>
+      <Projects/>
       <Contact/>
       <Footer/>
       <Routes>
