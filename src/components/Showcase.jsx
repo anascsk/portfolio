@@ -22,7 +22,7 @@ const Showcase = () => {
         <h1>Hello World</h1>
         <h2><span>It's</span>MOHAMMED ANAS</h2>
         <h3>Frontend Developer</h3>
-        <p>Building Responsive and fgjh;siodjg;oifdejg</p>
+        <p>Building Responsive Web Apps by Converting Designs into Clean and Reusable Codes.</p>
         <p>
           <Button>Download CV</Button>
         </p>

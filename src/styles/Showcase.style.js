@@ -19,6 +19,9 @@ export const Left = styled.div`
     top: 30px;
     margin-left: 2%;
     color: #d8d8d8;
+    margin-bottom: 2px;
+    opacity: 0.6;
+    margin-top: 0;
   }
 
   h2 {
@@ -26,16 +29,27 @@ export const Left = styled.div`
     color: #333133;
     margin-left: 15%;
     font-family: "Ubuntu", sans-serif;
+    margin-bottom: 1px;
+  }
+  h3 {
+    font-size: 25px;
+    text-align: end;
+    margin-top: 0;
+    color: #784cfb;
+    
   }
 
   p {
     font-size: 20px;
     margin-left: 20%;
+    color: #333133;
+    font-family: poppins;
   }
   span {
       font-size: 22px;
       margin-right: 5px;
       color: #949294;
+      opacity: 0.6;
   }
 `;
 export const H1 = styled.h1``;
