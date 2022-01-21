@@ -14,7 +14,7 @@ import {Button} from '../styles/button.style'
 
 const Contact = () => {
   return (
-    <Container>
+    <Container id="contact">
       <ContactBox>
         
         <ContactInfo>

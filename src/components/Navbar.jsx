@@ -1,4 +1,5 @@
 import { useState } from "react";
+import {Link} from 'react-scroll'
 
 import {
   Container,
@@ -16,11 +17,11 @@ import {
 import { CgMenuMotion } from "react-icons/cg";
 import { CgMenuHotdog } from "react-icons/cg";
 
-let anascoder = require("../images/anascoder.png");
+
 const Navbar = () => {
   const [extendedNavbar, setExtendedNavbar] = useState(false);
   return (
-    <Container extendedNavbar={extendedNavbar}>
+    <Container id="Home" extendedNavbar={extendedNavbar }>
       <NavbarInnerContainer>
         <LeftContainer>
           {/* <Logo src={anascoder}></Logo> */}
@@ -28,11 +29,15 @@ const Navbar = () => {
         </LeftContainer>
         <RightContainer>
           <NavbarLinkContainer>
-            <NavbarLink to="/">Home</NavbarLink>
-            <NavbarLink to="/about">About Me</NavbarLink>
-            <NavbarLink to="/projects">Projects</NavbarLink>
+            <NavbarLink>
+            <Link to="Home" smooth={true}>Home</Link></NavbarLink>
+            <NavbarLink><Link to="about" smooth={true}>About Me</Link></NavbarLink>
+            <NavbarLink><Link to="projects" smooth={true}>Projects</Link></NavbarLink>
 
-            <NavbarLink to="/contact">Hire Me</NavbarLink>
+            <NavbarLink><Link to="contact" smooth={true}>Hire Me</Link>
+            </NavbarLink>
+
+
 
             <OpenLinksButton
               onClick={() => {

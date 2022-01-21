@@ -6,7 +6,7 @@ flex-wrap: wrap;
 justify-content: center;
 width: 100%;
 max-width: 960px;
-background-color: #fff;
+background-color: #f0f5fa;
 box-shadow: 1px 3px 32px -7px black;
 border-radius:10px;
 text-align: center;

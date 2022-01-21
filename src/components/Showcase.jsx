@@ -20,9 +20,14 @@ const Showcase = () => {
     <Container>
       <Left>
         <h1>Hello World!</h1>
-        <h2><span>It's</span>MOHAMMED ANAS</h2>
+        <h2>
+          <span>It's</span>MOHAMMED ANAS
+        </h2>
         <h3>Frontend Developer</h3>
-        <p>Building Responsive Web Apps by Converting Designs into Clean and Reusable Codes.</p>
+        <p>
+          Building Responsive Web Apps by Converting Designs into Clean and
+          Reusable Codes.
+        </p>
         <p>
           <Button>Download CV</Button>
         </p>
@@ -32,18 +37,27 @@ const Showcase = () => {
       </Center>
       <Right>
         <SocialIcons>
-          <TiSocialLinkedinCircular />
+          <a href="https://linkedin.com/in/anascsk">
+           
+            <TiSocialLinkedinCircular />
+          </a>
         </SocialIcons>
         <SocialIcons>
-          {" "}
-          <TiSocialGithubCircular />
+         
+          <a href="https://github.com/anascsk">
+            <TiSocialGithubCircular />
+          </a>
         </SocialIcons>
+        {/* <SocialIcons>
+         
+          <a href="https://twitter.com/">
+            <TiSocialTwitterCircular />
+          </a>
+        </SocialIcons> */}
         <SocialIcons>
-          {" "}
-          <TiSocialTwitterCircular />
-        </SocialIcons>
-        <SocialIcons>
-          <TiSocialAtCircular />
+          <a href="mailto:anascoder7@gmail.com">
+            <TiSocialAtCircular />
+          </a>
         </SocialIcons>
       </Right>
     </Container>

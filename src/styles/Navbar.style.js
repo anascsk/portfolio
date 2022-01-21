@@ -42,13 +42,15 @@ export const NavbarLinkContainer = styled.div`
   display: flex;
 `;
 
-export const NavbarLink = styled(Link)`
+export const NavbarLink = styled.div`
   color: #949294;
   font-size: large;
   font-family: Poppins, sans-serif;
   text-decoration: none;
   margin: 10px;
   transition: transform 0.2s;
+  cursor: pointer;
+  font-weight: 500;
   @media (max-width: 780px) {
     display: none;
   }

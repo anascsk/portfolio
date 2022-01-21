@@ -7,7 +7,7 @@ const Projects = () => {
     return (
         <>
             <H2>Projects</H2>
-                <ProjectContainer > 
+                <ProjectContainer id="projects" > 
                     {projectsData.map((item) => (
                     <ProjectCard key={item.id} item={item}/>
                     ))}
