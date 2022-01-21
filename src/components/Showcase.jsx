@@ -2,7 +2,7 @@ import {
   TiSocialAtCircular,
   TiSocialGithubCircular,
   TiSocialLinkedinCircular,
-  TiSocialTwitterCircular,
+  
 } from "react-icons/ti";
 import {
   Container,
@@ -29,7 +29,7 @@ const Showcase = () => {
           Reusable Codes.
         </p>
         <p>
-          <Button>Download CV</Button>
+          <a href="https://drive.google.com/file/d/1dv7vhzgDXjwmKlfOULTKEkTDpEQYBLia/view?usp=sharing"><Button>Download CV</Button></a>
         </p>
       </Left>
       <Center>

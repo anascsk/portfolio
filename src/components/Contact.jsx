@@ -11,8 +11,21 @@ import {
   Row,
 } from "../styles/Contact.style";
 import {Button} from '../styles/button.style'
+import emailjs from "emailjs-com";
 
 const Contact = () => {
+
+  const mailMe = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_anascoder', 'anascoder7', e.target, 'user_Ylln1E4PL2wNwmCaAOVMk')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset()
+  } 
   return (
     <Container id="contact">
       <ContactBox>
@@ -33,21 +46,23 @@ const Contact = () => {
            +91 7012 691 803
           </InfoWrap>
         </ContactInfo>
-        <ContactForm>
+        <ContactForm onSubmit={mailMe}>
           <h3>Contact Me</h3>
-          <Row>
-            <input type="text" placeholder="First Name" />
 
-            <input type="text" placeholder="Last Name" />
+          <Row>
+            <input type="text" placeholder="First Name" name="firstname"/>
+
+            <input type="text" placeholder="Last Name" name="lastname"/>
           </Row>
           <Row>
-            <input type="text" placeholder="Phone" />
-            <input type="email" placeholder="Email" />
+            <input type="text" placeholder="Phone" name="phone"/>
+            <input type="email" placeholder="Email" name="email"/>
           </Row>
           <Row>
             <textarea name="message" placeholder=""></textarea>
           </Row>
           <Button >SEND</Button>
+         
         </ContactForm>
       </ContactBox>
     </Container>

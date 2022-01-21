@@ -1,11 +1,12 @@
 import React from 'react'
 import '../styles/About.style'
+import { Container } from '../styles/About.style'
 
 const About = () => {
     return (
-        <div>
-            
-        </div>
+        <Container id="about" >
+            <Title>About Me</Title>
+        </Container>
     )
 }
 

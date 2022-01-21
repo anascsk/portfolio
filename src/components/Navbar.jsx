@@ -31,7 +31,7 @@ const Navbar = () => {
           <NavbarLinkContainer>
             <NavbarLink>
             <Link to="Home" smooth={true}>Home</Link></NavbarLink>
-            <NavbarLink><Link to="about" smooth={true}>About Me</Link></NavbarLink>
+            {/* <NavbarLink><Link to="about" smooth={true}>About Me</Link></NavbarLink> */}
             <NavbarLink><Link to="projects" smooth={true}>Projects</Link></NavbarLink>
 
             <NavbarLink><Link to="contact" smooth={true}>Hire Me</Link>
