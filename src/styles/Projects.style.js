@@ -14,11 +14,15 @@ export const ProjectContainer = styled.div`
 `
 
 export const H2 = styled.h2`
-    font-weight: 900;
-    color: whitesmoke;
-    text-align: center;
-    margin-bottom: 2em;
-    margin-top: 2em;
+    font-size: 90px;
+  top: 30px;
+  margin-left: 2%;
+  color: #d8d8d8;
+
+  opacity: 0.6;
+  margin-top: 0;
+  
+  text-align: center;
 @media (max-width: 768px){
         margin-top: 2vh;
         margin-bottom: 7vh;

@@ -4,13 +4,15 @@ import Showcase from "./components/Showcase";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
       <Showcase/>
-      <Projects/>
+      <Skills/>
+      {/* <Projects/> */}
       <Contact/>
       <Footer/>
       <Routes>

@@ -6,16 +6,23 @@ flex-wrap: wrap;
 justify-content: center;
 width: 100%;
 max-width: 960px;
-background-color: rgba(255, 255, 255, 0.972);
+background-color: #fff;
 box-shadow: 1px 3px 32px -7px black;
 border-radius:10px;
 text-align: center;
 overflow: hidden;
+&:hover{
+
+}
 img {
     width: 97%;
     border-radius: 10px;
     margin-top: .7rem; 
     box-shadow: 1px 3px 32px -1px black;
+    transition: transform .9s;
+    &:hover{
+        transform: scale(1.03);
+    }
 }
 @media (max-width: 768px){
     width: 100%;
@@ -72,7 +79,7 @@ export const CardLink = styled.div`
         margin: .7rem 1rem 1rem 2rem;
     }
     &:hover{
-        color: rgba(255, 0, 255, 0.513);
+        color: #705edb;
         transition: all 0.5s ease;
     }
 }
