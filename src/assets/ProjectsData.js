@@ -1,67 +1,59 @@
 const projectsData = [
     {
         id: 1,
-        title: 'Plantpedia',
-        body: 'Plant database and plant care guides with subscription shop and chat function',
-        image: 'https://res.cloudinary.com/di32yybrd/image/upload/v1633862098/portfolio/planta_hzrb2h.png',
-        tech: `REACT  CHAT ENGINE API  COMMERCE JS  STRIPE`,
-        linkgithub:'https://github.com/aegli84/Plantpedia-2.0',
-        linkdemo: 'https://plantpedia-2-0.vercel.app/'
+        title: 'audiobae.ml',
+        body: 'An E-Commerce Web App which focused on selling audiophile products',
+        image: 'https://res.cloudinary.com/anascsk/image/upload/v1642755683/anascoder%20portfolio/AudioBae-Rediscover-Music-at-India-s-1-Audiophile-Store_pfwpuw.png',
+        tech: `REACT  COMMERCE JS  STRIPE  FIREBASE  STYLED-COMPONENTS`,
+        linkgithub:'https://github.com/anascsk/audiobae',
+        linkdemo: 'https://audiobae.ml'
         },
         {
         id: 2,
-        title: 'Neurocat',
-        body: "AI company marketing website. Simple with added particle background and bi-color palette",
-        image: 'https://res.cloudinary.com/di32yybrd/image/upload/v1633862212/portfolio/neuroca_uxwymc.png',
-        tech: `REACT  STYLED-COMPONENTS  FRAMER MOTION`,
-        linkgithub:'https://github.com/aegli84/neurocat-webpage-task',
-        linkdemo: 'https://neurocat-webpage-task.vercel.app/'
+        title: 'AirBae.ml',
+        body: "Clone of AirBnb.com. letting users to authenticate and reserve rooms by picking dates",
+        image: 'https://res.cloudinary.com/anascsk/image/upload/v1642755687/anascoder%20portfolio/Airbae-Holiday-Rentals-Cabins-Beach-Houses-Unique-Homes-Experiences_w09tcx.png',
+        tech: `REACT JS  FIREBASE  STYLED-COMPONENTS  REACT-DATE-PICKER`,
+        linkgithub:'https://github.com/anascsk/Airbnb-clone',
+        linkdemo: 'http://airbae.ml/'
         },
         {
         id: 3,
-        title: 'Mangiare',
-        body: "A simple recipe API search web app built in React with React hooks. Future version will feature login/register function and recipe saving",
-        image: 'https://res.cloudinary.com/di32yybrd/image/upload/v1633861986/portfolio/mangi_avu257.png',
-        tech: `REACT  STYLED-COMPONENTS  AXIOS  EDAMAM API`,
-        linkgithub:'https://github.com/aegli84/Mangiare---recipe-search',
-        linkdemo: 'https://mangiare-recipe-app.herokuapp.com/'
+        title: 'WebDev Portfolio',
+        body: "A minimalistic portfolio website using React js and UI styled with Styled-Components.",
+        image: 'https://res.cloudinary.com/anascsk/image/upload/v1642755682/anascoder%20portfolio/Mohammed-Anas_lpxhur.png',
+        tech: `REACT JS  STYLED-COMPONENTS  REACT ROUTER  `,
+        linkgithub:'https://github.com/anascsk/portfolio',
+        linkdemo: 'http://anascoder.ml/'
         },
         {
         id: 4,
-        title: 'WebDev Portfolio',
-        body: "My personal portfolio. A long content page with smooth scroll to section for a modern look and feel",
-        image: 'https://res.cloudinary.com/di32yybrd/image/upload/v1634487211/portfolio/Andreea_Egli_-_P_7_eixlyt.png',
-        tech: `REACT  STYLED-COMPONENTS  AOS ANIMATIONS`,
-        linkgithub:'https://github.com/aegli84/portfolio"',
-        linkdemo: 'https://andreaegli.tech/'
+        title: 'Simple Calculator',
+        body: "A simple calculator using React js with clean and modern User Interface",
+        image: 'https://res.cloudinary.com/anascsk/image/upload/v1642755682/anascoder%20portfolio/Calculator_yzv6ze.png',
+        tech: `REACT JS  CSS3  `,
+        linkgithub:'https://github.com/anascsk/Calculator"',
+        linkdemo: 'https://simplycalc.netlify.app/'
         },
         {
         id: 5,
-        title: 'Wunder - Todo List',
-        body: "A classic and simple to-do list built with HTML, CSS and vanilla Javascript with a touch of light animations",
-        image: 'https://res.cloudinary.com/di32yybrd/image/upload/v1634935961/portfolio/To_Do_List_2_jlpo60.png',
-        tech: `HTML  CSS  JAVASCRIPT`,
-        linkgithub:'https://github.com/aegli84/Todo-list',
-        linkdemo: 'https://aegli84.github.io/Todo-list/'
+        title: 'Movie Reviews',
+        body: "A Movie review Website using TDMB API and Vanilla JavaScript with a beautiful UI/UX Design.",
+        image: 'https://res.cloudinary.com/anascsk/image/upload/v1642758174/anascoder%20portfolio/Movie-Reviews_rkkb5g.png',
+        tech: `HTML  CSS  JAVASCRIPT  TDMB API`,
+        linkgithub:'https://github.com/anascsk/movie-reviews',
+        linkdemo: 'https://anascsk.github.io/movie-reviews/'
         },
-        {
-        id: 6,
-        title: 'Chat WebApp',
-        body: "A chat web app built in React with Chat Engine API and Firebase authentification. No more FB Messenger ;)",
-        image: 'https://res.cloudinary.com/di32yybrd/image/upload/v1636538012/portfolio/scrnli_11_10_2021_10-52-54_AM_ypbgs3.png',
-        tech: `REACT  CHAT ENGINE API  FIREBASE`,
-        linkgithub:'https://github.com/aegli84',
-        linkdemo: 'https://github.com/aegli84'
-        },  
-        {
-        id: 7,
-        title: 'cleverlohn - FinTech',
-        body: "Website re-design and implementation for a FinTech SaaS startup company in Berlin",
-        image: 'https://res.cloudinary.com/di32yybrd/image/upload/v1634908514/portfolio/Cleverlohn_2_oxmfr5.png',
-        tech: `REACT  STYLED-COMPONENTS  EMAILJS  i18next`,
-        linkgithub:'https://res.cloudinary.com/di32yybrd/image/upload/v1634909969/portfolio/From_this_1_v6zt2n.png',
-        linkdemo: 'Coming - soon'
-        }, 
+        // {
+        // id: 6,
+        // title: '',
+        // body: "",
+        // image: '',
+        // tech: `REACT  CHAT ENGINE API  FIREBASE`,
+        // linkgithub:'',
+        // linkdemo: ''
+        // },  
+       
        
     ]
     
