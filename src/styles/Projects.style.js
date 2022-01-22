@@ -5,9 +5,9 @@ width: 97vw;
   display: grid;
   
   grid-template-columns: 1fr 1fr;
-  grid-gap: 25px;
+  grid-gap: 15px;
   justify-content: center;
-  margin: 3rem;
+  margin: 1rem;
   @media (max-width: 768px) {
     grid-template-columns: auto;
     margin: 0rem;

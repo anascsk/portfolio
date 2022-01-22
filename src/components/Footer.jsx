@@ -26,10 +26,10 @@ const Footer = () => {
         
         <FollowMe>
           <span><MdLinearScale/><MdLinearScale/>Follow me </span>
-          <SocialMedia><FiLinkedin/></SocialMedia>
-          <SocialMedia><FiGithub/></SocialMedia>
-          <SocialMedia><FiTwitter/></SocialMedia>
-          <SocialMedia><FiInstagram/></SocialMedia>
+          <SocialMedia><a href="https://linkedin.com/in/anascsk"><FiLinkedin/></a></SocialMedia>
+          <SocialMedia><a href="https://github.com/anascsk"><FiGithub/></a></SocialMedia>
+          <SocialMedia><a href="https://twitter.com/anascoder7"><FiTwitter/></a></SocialMedia>
+          <SocialMedia><a href="https://instagram.com/anascoder"><FiInstagram/></a></SocialMedia>
         </FollowMe>
         <Copyright>
           Copyright © 2022 All rights reserved | Made with ❤️ by <span>anascoder</span>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { mobile, tablet } from "../responsive";
 
 export const Container = styled.div`
-  width: 100vw;
+  width: 98vw;
   height: ${(props) => (props.extendNavbar ? "100vh" : "80px")};
   background-color: #fff;
   display: flex;

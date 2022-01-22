@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { mobile, tablet } from "../responsive";
 
 export const Container = styled.div`
-  width: 100vw;
+  width: 98vw;
   max-height: 600px;
   display: flex;
   margin-bottom: 50px;
@@ -13,7 +13,7 @@ export const Left = styled.div`
   text-align: left;
   margin: auto;
 
-  padding-left: 50px;
+  padding-left: 30px;
   color: #949294;
   ${mobile({ paddingLeft: "15px" })}
 
@@ -78,14 +78,12 @@ export const Right = styled.div`
   flex: 10%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
   margin: auto;
-  overflow: hidden;
   font-size: 60px;
   color: #705edb;
 
-  overflow: hidden;
   ${mobile({ display: "none" })}
   
 `;
