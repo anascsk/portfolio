@@ -7,6 +7,7 @@ import {
   ContactIcon,
   ContactInfo,
   Container,
+  H2,
   InfoWrap,
   Row,
 } from "../styles/Contact.style";
@@ -28,6 +29,7 @@ const Contact = () => {
   } 
   return (
     <Container id="contact">
+      <H2>Contact Me</H2>
       <ContactBox>
         
         <ContactInfo>

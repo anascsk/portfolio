@@ -23,7 +23,7 @@ const ProjectCard = ({
             </CardLink>
           </Flex>
           <p>{body}</p>
-          <pre>{tech}</pre>
+          <h6>{tech}</h6>
         </CardContent>
       </CardContainer>
     </>

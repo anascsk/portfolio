@@ -1,16 +1,15 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { mobile, tablet } from "../responsive";
 
 export const Container = styled.div`
-  width: 100%;
+  width: 100vw;
   height: ${(props) => (props.extendNavbar ? "100vh" : "80px")};
   background-color: #fff;
   display: flex;
   flex-direction: column;
   color: white;
-  @media (min-width: 700px) {
-    height: 80px;
-  }
+  
 `;
 
 export const LeftContainer = styled.div`
@@ -20,7 +19,12 @@ export const LeftContainer = styled.div`
   margin-left: 55px;
   margin-top: 5px;
   color: black;
-
+  h1{
+    ${tablet({ fontSize: "20px" })}
+    ${mobile({ fontSize: "15px" })}
+  }
+  ${tablet({ fontSize: "15px" })}
+  ${mobile({ marginLeft: "20px", flex: "40%" })}
 `;
 
 export const RightContainer = styled.div`
@@ -40,6 +44,7 @@ export const NavbarInnerContainer = styled.div`
 `;
 export const NavbarLinkContainer = styled.div`
   display: flex;
+  justify-content: flex-end;
 `;
 
 export const NavbarLink = styled.div`
@@ -61,7 +66,7 @@ export const NavbarLink = styled.div`
   }
 `;
 
-export const NavbarLinkExtended = styled(Link)`
+export const NavbarLinkExtended = styled.div`
   color: #949294;
   font-size: x-large;
   font-family: Arial, Helvetica, sans-serif;
@@ -89,20 +94,22 @@ export const OpenLinksButton = styled.button`
   font-size: 45px;
   cursor: pointer;
   margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
 
   @media (min-width: 780px) {
     display: none;
   }
 `;
 export const NavbarExtendedContainer = styled.div`
-position: relative;
-height: 90vh;
-width: 100vw;
- 
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  z-index: 2;
   display: flex;
   flex-direction: column;
   align-items: center;
- 
+  background-color: #fff;
 
   @media (min-width: 780px) {
     display: none;

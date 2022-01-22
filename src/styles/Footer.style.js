@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {mobile, tablet} from '../responsive'
 
 export const End = styled.div`
   display: flex;
@@ -7,16 +8,19 @@ export const End = styled.div`
 `;
 export const FooterContainer = styled.div`
   background-color: #241d2b;
+  max-width: 99vw;
   border-radius: 40px 40px 0px 0px;
   padding: 50px 20px 50px 20px;
+  ${mobile({  })}
 `;
 
 export const BottomFooter = styled.div`
   margin-top: 5.5rem;
   padding: 0 1.7rem;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: flex-start;
+  justify-content: space-around;
+  ${mobile({ flexDirection: "column", marginTop: "0"})}
 `;
 export const Copyright = styled.div`
   color: white;
@@ -40,6 +44,7 @@ export const FollowMe = styled.div`
     color: white;
     font-family: poppins;
     color: coral;
+    ${mobile({ display: "none" })}
   }
 `;
 

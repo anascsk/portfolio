@@ -14,17 +14,16 @@ import {
 import {FiGithub, FiInstagram, FiLinkedin, FiTwitter} from 'react-icons/fi'
 import {MdLinearScale} from 'react-icons/md'
 import {IoIosArrowDropupCircle} from 'react-icons/io'
+import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
       <>
       <End><MdLinearScale/></End>
     <FooterContainer>
-    <BackToTopContainer><BackToTop><IoIosArrowDropupCircle/></BackToTop></BackToTopContainer>
+    <BackToTopContainer><Link to="Home" smooth={true}><BackToTop><IoIosArrowDropupCircle/></BackToTop></Link></BackToTopContainer>
       <BottomFooter>
-        <Copyright>
-          Copyright © 2022 All rights reserved | Made with ❤️ by <span>anascoder</span>
-        </Copyright>
+        
         <FollowMe>
           <span><MdLinearScale/><MdLinearScale/>Follow me </span>
           <SocialMedia><FiLinkedin/></SocialMedia>
@@ -32,6 +31,9 @@ const Footer = () => {
           <SocialMedia><FiTwitter/></SocialMedia>
           <SocialMedia><FiInstagram/></SocialMedia>
         </FollowMe>
+        <Copyright>
+          Copyright © 2022 All rights reserved | Made with ❤️ by <span>anascoder</span>
+        </Copyright>
       </BottomFooter>
     </FooterContainer>
     </>

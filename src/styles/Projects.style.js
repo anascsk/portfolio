@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const ProjectContainer = styled.div`
+width: 97vw;
   display: grid;
   
   grid-template-columns: 1fr 1fr;
@@ -9,7 +10,7 @@ export const ProjectContainer = styled.div`
   margin: 3rem;
   @media (max-width: 768px) {
     grid-template-columns: auto;
-    margin: 2rem;
+    margin: 0rem;
   }
 `;
 
