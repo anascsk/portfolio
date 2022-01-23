@@ -4,7 +4,7 @@ margin-top: auto;
 margin-left: 2%;
 `
 export const ProjectContainer = styled.div`
-width: 97vw;
+width: 95vw;
   display: grid;
   
   grid-template-columns: 1fr 1fr;
@@ -22,7 +22,7 @@ export const H2 = styled.h2`
   top: 30px;
   margin-left: 2%;
   color: #d8d8d8;
-
+  margin-top: 7vw;
   opacity: 0.6;
   margin-top: 0;
 
