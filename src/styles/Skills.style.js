@@ -1,25 +1,26 @@
 import styled from "styled-components";
 
 export const DivWrapper = styled.div`
-  min-height: 90vh;
+  max-height: 500px;
   margin-left: 15vh;
   margin-right: 15vh;
-  margin-top: 10rem;
+  margin-top: 10vh;
   text-align: center;
-  @media (max-width: 768px) {
+  
+  /* @media (max-width: 768px) {
     margin: 8rem 5rem 5rem 5rem;
   }
-  @media (max-width: 480px) {
+  @media (max-width: 425px) {
     margin-left: 5vh;
     margin-right: 3vh;
-    margin-top: 28rem;
-  }
+    margin-top: 2rem;
+  } */
 `;
 export const Text = styled.h2`
   margin-bottom: 15vh;
  
 
-  font-size: 90px;
+  font-size: 7vw;
   top: 30px;
   margin-left: 2%;
   color: #d8d8d8;
@@ -28,7 +29,7 @@ export const Text = styled.h2`
   margin-top: 0;
   
   text-align: center;
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     margin-top: 1rem;
     margin-bottom: 10vh;
   }
@@ -36,11 +37,11 @@ export const Text = styled.h2`
     margin-top: 2vh;
     margin-bottom: 7vh;
     font-size: 3.5rem;
-  }
+  } */
 `;
 
 export const Icons = styled.div`
-  height: 7vh;
+  height: 60%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 1em;
@@ -52,7 +53,7 @@ export const Icons = styled.div`
     width: 5vw;
   }
 
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 1rem;
     row-gap: 4rem;
@@ -81,5 +82,5 @@ export const Icons = styled.div`
       padding: 1rem 2rem;
       width: 25vw;
     }
-  }
+  } */
 `;

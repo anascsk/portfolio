@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Showcase/>
-      {/* <Skills/> */}
+      <Skills/>
       <Projects/>
       <Contact/>
       <Footer/>

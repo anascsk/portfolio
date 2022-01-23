@@ -19,7 +19,7 @@ export const Left = styled.div`
 
 
   h1 {
-    font-size: 90px;
+    font-size: 7vw;
     top: 30px;
     margin-left: 2%;
     color: #d8d8d8;

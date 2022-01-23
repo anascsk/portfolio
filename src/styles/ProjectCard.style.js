@@ -19,7 +19,7 @@ img {
     width: 97%;
     border-radius: 10px;
     margin-top: .7rem; 
-    box-shadow: 1px 3px 32px -1px black;
+    box-shadow: 1px 1px 25px -1px gray;
     transition: transform .9s;
     &:hover{
         transform: scale(1.03);
@@ -40,20 +40,19 @@ max-width: 100%;
 `
 export const CardContent = styled.div`
 text-align: left;
-/* padding-left: 50px;
-padding-right: 50px; */
+
 h3 {
     margin: 2rem;
     padding: 1rem;
     font-size: 2rem;
-    color: #3d3f42;
+    color: #6e3bc2;
     
-    /* ${mobile({ fontSize: "1rem" })} */
+    ${mobile({ fontSize: "1 rem",  })}
   
 }
 p {
     margin: 2rem;
-    padding: 1rem;
+    padding: 0 ;
     font-size: 1.2rem;
     font-weight: 400;
     color: #343a40;

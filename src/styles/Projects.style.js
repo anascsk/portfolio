@@ -1,12 +1,15 @@
 import styled from "styled-components";
-
+export const Container = styled.div`
+margin-top: auto;
+margin-left: 2%;
+`
 export const ProjectContainer = styled.div`
 width: 97vw;
   display: grid;
   
   grid-template-columns: 1fr 1fr;
   grid-gap: 15px;
-  justify-content: center;
+  
   margin: 1rem;
   @media (max-width: 768px) {
     grid-template-columns: auto;
@@ -15,7 +18,7 @@ width: 97vw;
 `;
 
 export const H2 = styled.h2`
-  font-size: 90px;
+  font-size: 7vw;
   top: 30px;
   margin-left: 2%;
   color: #d8d8d8;

@@ -52,7 +52,7 @@ export const ContactBox = styled.div`
   padding-bottom: 1rem;
   line-height: 1;
   margin-bottom: 0.6rem;
-  ${mobile({ fontSize: "20px", paddingBottom: "0px", marginLeft: "15%"  })}
+  ${mobile({ fontSize: "30px", paddingBottom: "0px", marginLeft: "15%"  })}
   }
   p {
     font-size: 23px;
@@ -66,14 +66,14 @@ export const ContactInfo = styled.div`
   margin-right: 40px;
   display: flex;
   flex-direction: column;
-  
+  align-items: flex-start;
   
 `;
 export const InfoWrap = styled.div`
   display: flex;
   padding: 25px;
   font-size: 20px;
-  ${mobile({ marginLeft: "5%" })}
+  ${mobile({ marginLeft: "5%", padding: "10px" })}
 
   
 `;
