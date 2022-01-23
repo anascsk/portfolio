@@ -36,11 +36,20 @@ justify-content: space-between;
 max-width: 100%;
 @media (max-width: 768px){
     font-size: .5rem;
+    
+}
+@media (max-width: 375px){
+    
+    max-width: 95%;
+}
+@media (max-width: 320px){
+    
+    max-width: 90%;
 }
 `
 export const CardContent = styled.div`
 text-align: left;
-
+max-width: 97%;
 h3 {
     margin: 2rem;
     padding: 1rem;

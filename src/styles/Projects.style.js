@@ -1,6 +1,6 @@
 import styled from "styled-components";
 export const Container = styled.div`
-margin-top: auto;
+margin-top: 7vw;
 margin-left: 2%;
 `
 export const ProjectContainer = styled.div`
@@ -22,7 +22,7 @@ export const H2 = styled.h2`
   top: 30px;
   margin-left: 2%;
   color: #d8d8d8;
-  margin-top: 7vw;
+  margin-top: 0;
   opacity: 0.6;
   margin-top: 0;
 
