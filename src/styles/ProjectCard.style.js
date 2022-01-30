@@ -38,14 +38,7 @@ max-width: 100%;
     font-size: .5rem;
     
 }
-@media (max-width: 375px){
-    
-    max-width: 95%;
-}
-@media (max-width: 320px){
-    
-    max-width: 90%;
-}
+
 `
 export const CardContent = styled.div`
 text-align: left;
@@ -53,7 +46,7 @@ max-width: 97%;
 h3 {
     margin: 2rem;
     padding: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #6e3bc2;
     
     ${mobile({ fontSize: "1 rem",  })}
@@ -70,6 +63,7 @@ p {
     }
     @media (max-width: 425px){
         font-size: 1rem;
+        padding: 0;
     }
 }
 h6 {
@@ -80,7 +74,7 @@ h6 {
     @media (max-width: 768px){
         font-size: 1rem;
     }
-    @media (max-width: 480px){
+    @media (max-width: 425px){
         font-size: 1.1rem;
     }
 }

@@ -17,27 +17,14 @@ export const DivWrapper = styled.div`
   } */
 `;
 export const Text = styled.h2`
-  margin-bottom: 15vh;
- 
-
-  font-size: 7vw;
+  margin-bottom: 15px;
+ font-size: 7vw;
   top: 30px;
   margin-left: 2%;
   color: #d8d8d8;
-
-  opacity: 0.6;
+opacity: 0.6;
   margin-top: 0;
-  
-  text-align: center;
-  /* @media (max-width: 768px) {
-    margin-top: 1rem;
-    margin-bottom: 10vh;
-  }
-  @media (max-width: 480px) {
-    margin-top: 2vh;
-    margin-bottom: 7vh;
-    font-size: 3.5rem;
-  } */
+text-align: center;
 `;
 
 export const Icons = styled.div`
