@@ -59,7 +59,7 @@ p {
     font-weight: 400;
     color: #343a40;
     @media (max-width: 768px){
-        font-size: 1.8rem;
+        font-size: 1.4rem;
     }
     @media (max-width: 425px){
         font-size: 1rem;
