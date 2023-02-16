@@ -29,7 +29,7 @@ const Showcase = () => {
           Reusable Codes.
         </p>
         <p>
-          <a href="https://drive.google.com/file/d/1dv7vhzgDXjwmKlfOULTKEkTDpEQYBLia/view?usp=sharing"><Button>Download CV</Button></a>
+          <a href="https://drive.google.com/file/d/11UPMGhOwuWdjDft0Qly2KAKrFsxpDvo4/view?usp=share_link"><Button>Download CV</Button></a>
         </p>
       </Left>
       <Center>

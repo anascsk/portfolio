@@ -33,8 +33,8 @@ const Contact = () => {
       <ContactBox>
         
         <ContactInfo>
-        <h3>Get in touch</h3>
-        <p> Got some ideas? Don't hesitate to reach me out</p>
+        {/* <h3>Get in touch</h3> */}
+        {/* <p> Got some ideas? Don't hesitate to reach me out</p> */}
           <InfoWrap>
             <ContactIcon><ImLocation2/></ContactIcon>
             Calicut, Kerala
@@ -49,7 +49,7 @@ const Contact = () => {
           </InfoWrap>
         </ContactInfo>
         <ContactForm onSubmit={mailMe}>
-          <h3>Contact Me</h3>
+          {/* <h3>Contact Me</h3> */}
 
           <Row>
             <input type="text" placeholder="First Name" name="firstname"/>

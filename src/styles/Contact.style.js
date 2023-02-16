@@ -35,7 +35,7 @@ export const H2 = styled.h2`
   }
 `;
 export const ContactBox = styled.div`
-  width: 80%;
+  width: 95%;
   padding: 15px;
   background-color: #fff;
   border-radius: 45px;

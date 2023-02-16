@@ -14,12 +14,12 @@ const ProjectCard = ({
           <Flex>
             <h3>{title}</h3>
             <CardLink>
-              <a href={linkgithub} target={"_blank"} rel="noopener noreferrer">
+              {linkgithub && <a href={linkgithub} target={"_blank"} rel="noopener noreferrer">
                 <FiGithub className="icon" />
-              </a>
-              <a href={linkdemo} target={"_blank"} rel="noopener noreferrer">
+              </a>}
+              {linkdemo && <a href={linkdemo} target={"_blank"} rel="noopener noreferrer">
                 <BsBoxArrowUpRight className="icon" />
-              </a>
+              </a>}
             </CardLink>
           </Flex>
           <p>{body}</p>

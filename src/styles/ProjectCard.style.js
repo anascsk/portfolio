@@ -53,7 +53,7 @@ h3 {
   
 }
 p {
-    margin: 2rem;
+    margin: 0 2rem 2rem 2rem;
     padding: 0 ;
     font-size: 1.2rem;
     font-weight: 400;
